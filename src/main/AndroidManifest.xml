@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.github.ipcjs.coordtransform">
+    <application android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity android:name="me.demo.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
