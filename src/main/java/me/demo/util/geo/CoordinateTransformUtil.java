@@ -61,8 +61,8 @@ public class CoordinateTransformUtil {
 	 * 百度坐标系(BD-09)转火星坐标系(GCJ-02)
 	 * 
 	 * @see 百度——>谷歌、高德
-	 * @param lng 百度坐标纬度
-	 * @param lat 百度坐标经度
+	 * @param lng 百度坐标经度
+	 * @param lat 百度坐标维度
 	 * @return 火星坐标数组
 	 */
 	public static double[] bd09togcj02(double bd_lon, double bd_lat) {
